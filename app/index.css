@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper{
+    margin: 0px auto;
+    width: 90%;
+    background-color: #fff;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+.menuList{
+    width: 50%;
+    margin:10px auto;
+    border-bottom: 1px solid #ccc;
+}
+.menuList li{
+    display: inline-block;
+    font-weight: bold;
+    list-style: none;
+    padding: 5px 0px;
+    text-align: center;
+    width: 16%; 
+}
+.menuList li.active{
+    color: #d0021d;
+}
+
+.nav {
+    padding: 10px;
+}
+.nav li{
+    display: inline;
+    list-style: none;
+    margin-right: 20px;
+}
+.nav li a{
+    color: #222;
+    text-decoration: none;
+}
+.nav li a.active{
+    font-weight: bold;
+    color: #d0021d;
+}
+.popular-list {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    margin: 0px;
+}
+.popular-list li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+.popular-list .popular-item {
+    list-style: none;
+    text-align: center;
+    width: 20%;
+    margin: 2.5%;
+}
+.popular-list li img {
+    width: 80%;
+}
+
+.home-container{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.home-container a {
+    padding: 10px 20px; 
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+}
+
+.header {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px; 
+    font-weight: 200;
+}
+
+.column input[type='text'] {
+    display: block;
+    width: 200px;
+    height: 25px;
+    border: 1px solid #333;
+    margin-bottom: 20px;
+}
+.avatar{
+    width: 100px;
+}
+.button {
+    display: inline-block;
+    width: 100px;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    border: 0px;
+    text-decoration: none;
+    padding: 10px;
+}
+.reset{
+    color: #d0021d;
+    border: 0px;
+    background-color:inherit;
+}
+.battle {
+    padding: 20px; 
+    text-align: center;
+}
